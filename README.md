@@ -10,6 +10,8 @@ tasks.
 
 
 ## Links
+Paper: https://arxiv.org/abs/2403.11289
+
 HuggingFace Ckpt: [Cktps](https://huggingface.co/SiyuanH/ManipVQA-V2)
 
 Dataset: [ToUpdate]
