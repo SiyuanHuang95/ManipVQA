@@ -1,0 +1,71 @@
+META:
+# HANDAL  10849 * 3
+  -
+    path: '/mnt/petrelfs/huangsiyuan/data/ManipVQA/HANDAL/dataset_round_2/train_grounding_normal_HANDAL.json'
+    type: 'image_text'
+
+  -
+    path: '/mnt/petrelfs/huangsiyuan/data/ManipVQA/HANDAL/dataset_round_2/train_rec_normal_HANDAL.json'
+    type: 'image_text'
+
+  -
+    path: '/mnt/petrelfs/huangsiyuan/data/ManipVQA/HANDAL/dataset_round_2/train_reg_normal_HANDAL.json'
+    type: 'image_text'
+
+# complete object
+  -
+    path: '/mnt/petrelfs/huangsiyuan/data/ManipVQA/HANDAL/dataset_round_2/train_complete_obj_rec_normal_HANDAL.json'
+    type: 'image_text'
+
+# Part-Affordance 1340 * 3
+  -
+    path: '/mnt/petrelfs/huangsiyuan/data/ManipVQA/RGB-D_part_affordance_dataset/train_rec_part_affordance_round_2.json'
+    type: 'image_text'
+
+  -
+    path: '/mnt/petrelfs/huangsiyuan/data/ManipVQA/RGB-D_part_affordance_dataset/train_reg_part_affordance_round_2.json'
+    type: 'image_text'
+
+  -
+    path: '/mnt/petrelfs/huangsiyuan/data/ManipVQA/RGB-D_part_affordance_dataset/train_grounding_part_affordance.json'
+    type: 'image_text'
+
+
+# EgoObjects 4021 * 3
+  -
+    path: '/mnt/petrelfs/huangsiyuan/data/ManipVQA/EgoObjects/train/train_rec_EgoObject_action_round_2.json'
+    type: 'image_text'
+
+  -
+    path: '/mnt/petrelfs/huangsiyuan/data/ManipVQA/EgoObjects/train/train_reg_transpancy_EgoObjects_round_2.json'
+    type: 'image_text'
+
+  -
+    path: '/mnt/petrelfs/huangsiyuan/data/ManipVQA/EgoObjects/train/train_reg_liquid_EgoObjects_round_2.json'
+    type: 'image_text'
+
+  -
+    path: '/mnt/petrelfs/huangsiyuan/data/ManipVQA/EgoObjects/train/train_reg_closed_EgoObjects_round_2.json'
+    type: 'image_text'
+
+# PACO 16143
+  -
+    path: '/mnt/petrelfs/huangsiyuan/data/ManipVQA/PACO_selected_from_LVIS/train_rec_paco_round_2.json'
+    type: 'image_text'
+
+# enhanced with coco + genome
+  -
+    path: '/mnt/petrelfs/huangsiyuan/LLaMA2-Accessory/accessory/configs/data/finetune/mm/ref4_downsampled_4/coco_rec_7796.json'
+    type: 'image_text'
+
+  -
+    path: '/mnt/petrelfs/huangsiyuan/LLaMA2-Accessory/accessory/configs/data/finetune/mm/ref4_downsampled_4/coco_reg_7796.json'
+    type: 'image_text'
+
+  -
+    path: '/mnt/petrelfs/huangsiyuan/LLaMA2-Accessory/accessory/configs/data/finetune/mm/ref4_downsampled_4/genome_rec_7796.json'
+    type: 'image_text'
+
+  # -
+  #   path: '/mnt/petrelfs/huangsiyuan/LLaMA2-Accessory/accessory/configs/data/finetune/mm/ref4_downsampled_4/genome_reg_7796.json'
+  #   type: 'image_text'
