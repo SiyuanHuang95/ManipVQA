@@ -6,6 +6,10 @@ While the integration of Multimodal Large Language Models (MLLMs) with robotic s
 ![ManipVQA - Method](figures/Method-Figure.png)
 We created an extensive vision-language dataset by combining existing resources and expanding affordance grounding tasks using ChatGPT. To maintain consistency with existing VQA datasets, we structured our dataset in a similar VQA format. Utilizing this curated dataset, we then fine-tuned an MLLM. Once integrated with a heuristic policy, the enhanced MLLM is capable of performing a broad array of tasks, notably including complex manipulation tasks.
 
+## News
+
+We have extended the 2D ManipVQA to the 3D ones, with more powerful ability on the articulated joints understanding and action grounding. Check it on [GitHub](https://github.com/changhaonan/A3VLM)
+
 ## How to use
 
 ### Dataset Creation
