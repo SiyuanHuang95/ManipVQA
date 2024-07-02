@@ -12,4 +12,4 @@
 # from . import falcon
 # from . import mixtral
 # from . import mixtral_peft
-from .pointbert.point_encoder import PointTransformer
+# from .pointbert.point_encoder import PointTransformer
