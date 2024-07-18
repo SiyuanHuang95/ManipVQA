@@ -1,0 +1,30 @@
+[
+    {
+        "image": "YOUR_PATH/demo_data/000651.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Please provide the bounding box coordinate of the region this sentence describes: handle of a power drill"
+            },
+            {
+                "from": "gpt",
+                "value": "[0.37, 0.51, 0.52, 0.61]"
+            }
+        ]
+    },
+
+    {
+        "image": "YOUR_PATH/demo_data/000651.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Please provide the bounding box coordinate of the region this sentence describes: grasp for drilling holes"
+            },
+            {
+                "from": "gpt",
+                "value": "[0.37, 0.51, 0.52, 0.61]"
+            }
+        ]
+    }
+
+]
