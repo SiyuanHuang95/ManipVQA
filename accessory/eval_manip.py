@@ -361,7 +361,7 @@ if __name__ == '__main__':
     def get_args_parser():
         parser = argparse.ArgumentParser('Single-turn (conversation) demo', add_help=False)
         # Model parameters
-        parser.add_argument('--llama_type', default='llama_qformerv2', type=str, metavar='MODEL',
+        parser.add_argument('--llama_type', default='llama_ens5', type=str, metavar='MODEL',
                             help='type of llama')
         parser.add_argument('--llama_config', default='/path/to/params.json', type=str, nargs="+",
                             help='Path to llama model config')
