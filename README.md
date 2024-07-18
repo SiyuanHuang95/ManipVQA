@@ -30,11 +30,23 @@ Please:
 ### Evaluation
 1. We provide the basic evaluation script in *accessory/eval_manip.py* and *accessory/get_ap_tool.py*
 
+### Inference with 7B
+When you have limited GPU (even with quant, still cannot afford), you can check our 7B model with InternLM as the language backbone Huggingface[7B-Ckpts](https://huggingface.co/SiyuanH/ManipVQA-7B). Remember set the "model_type" to be "internlm_ems5_light" in the script. And modify the lines 41 with 47 in accessory/model/LLM/inmternlm_ems5_light.py and point to the actual path.
+
+Also, due to the original internlm loading problem, you need the access to the InternLM ckpt when inference.
+
+
+### Demo data
+
+We provide some demo-usage data in the folder in the path "accessory/demo_data", you can create a similar json as the file in folder and used your data for training.
+
 
 ## Links
 Paper: https://arxiv.org/abs/2403.11289
 
 HuggingFace Ckpt: [Cktps](https://huggingface.co/SiyuanH/ManipVQA-V2)
+
+HuggingFace 7B-Ckpt [7B-Ckpts](https://huggingface.co/SiyuanH/ManipVQA-7B)
 
 Dataset: [ToUpdate]
 

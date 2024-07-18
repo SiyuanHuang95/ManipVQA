@@ -21,7 +21,7 @@ export NCCL_LL_THRESHOLD=0
 export NCCL_P2P_DISABLE=1
 export NCCL_IB_DISABLE=1
 
-vqa_data=demo
+vqa_data=demo.json
 # vqa_data=handal_rec
 # for vqa_data in DeepForm InfographicsVQA KleisterCharity TabFact WikiTableQuestions
 srun -p llmeval2 -N 1 --gres=gpu:2 --quotatype=auto  --job-name=ade \
